@@ -1,7 +1,7 @@
 {
  "objects": [
   {
-   "id": 100,
+   "id": 60100,
    "name": "grass",
    "frames": [
     "art/dngn/floor/grass/grass0.png"
@@ -12,7 +12,7 @@
    }
   },
   {
-   "id": 101,
+   "id": 60101,
    "name": "grass",
    "frames": [
     "art/dngn/floor/grass/grass1.png"
@@ -23,7 +23,7 @@
    }
   },
   {
-   "id": 102,
+   "id": 60102,
    "name": "dirt",
    "frames": [
     "art/dngn/floor/dirt0.png"
@@ -34,7 +34,7 @@
    }
   },
   {
-   "id": 103,
+   "id": 60103,
    "name": "cobblestone",
    "frames": [
     "art/dngn/floor/pebble_brown0.png"
@@ -45,7 +45,7 @@
    }
   },
   {
-   "id": 104,
+   "id": 60104,
    "name": "sand",
    "frames": [
     "art/dngn/floor/sand1.png"
@@ -56,7 +56,7 @@
    }
   },
   {
-   "id": 105,
+   "id": 60105,
    "name": "wooden floor",
    "frames": [
     "art/dngn/floor/limestone0.png"
@@ -67,7 +67,7 @@
    }
   },
   {
-   "id": 110,
+   "id": 60110,
    "name": "shallow water",
    "frames": [
     "art/dngn/water/shallow_water.png",
@@ -81,7 +81,7 @@
    }
   },
   {
-   "id": 111,
+   "id": 60111,
    "name": "deep water",
    "frames": [
     "art/dngn/water/deep_water.png",
@@ -97,7 +97,7 @@
    }
   },
   {
-   "id": 200,
+   "id": 60200,
    "name": "stone wall",
    "frames": [
     "art/dngn/wall/stone2_gray0.png"
@@ -111,7 +111,7 @@
    }
   },
   {
-   "id": 201,
+   "id": 60201,
    "name": "stone wall",
    "frames": [
     "art/dngn/wall/stone2_gray1.png"
@@ -125,7 +125,7 @@
    }
   },
   {
-   "id": 202,
+   "id": 60202,
    "name": "stone wall",
    "frames": [
     "art/dngn/wall/stone2_gray2.png"
@@ -139,7 +139,7 @@
    }
   },
   {
-   "id": 203,
+   "id": 60203,
    "name": "stone wall",
    "frames": [
     "art/dngn/wall/stone2_gray3.png"
@@ -153,7 +153,7 @@
    }
   },
   {
-   "id": 210,
+   "id": 60210,
    "name": "brick wall",
    "frames": [
     "art/dngn/wall/brick_brown0.png"
@@ -167,7 +167,7 @@
    }
   },
   {
-   "id": 300,
+   "id": 60300,
    "name": "tree",
    "frames": [
     "art/dngn/trees/tree1_yellow.png"
@@ -180,7 +180,7 @@
    }
   },
   {
-   "id": 301,
+   "id": 60301,
    "name": "tree",
    "frames": [
     "art/dngn/trees/tree2_red.png"
@@ -192,7 +192,7 @@
    }
   },
   {
-   "id": 400,
+   "id": 60400,
    "name": "closed door",
    "frames": [
     "art/dngn/doors/closed_door.png"
@@ -206,7 +206,7 @@
    }
   },
   {
-   "id": 401,
+   "id": 60401,
    "name": "open door",
    "frames": [
     "art/dngn/doors/open_door.png"
@@ -218,7 +218,7 @@
    }
   },
   {
-   "id": 410,
+   "id": 60410,
    "name": "teleporter",
    "frames": [
     "art/dngn/teleporter.png"
@@ -228,7 +228,7 @@
    }
   },
   {
-   "id": 1000,
+   "id": 3031,
    "name": "gold coin",
    "frames": [
     "art/item/gold/01.png"
@@ -247,8 +247,8 @@
    }
   },
   {
-   "id": 1001,
-   "name": "silver coin",
+   "id": 3035,
+   "name": "platinum coin",
    "frames": [
     "art/item/gold/03.png"
    ],
@@ -266,7 +266,332 @@
    }
   },
   {
-   "id": 1010,
+   "id": 3043,
+   "name": "crystal coin",
+   "frames": [
+    "art/item/gold/16.png"
+   ],
+   "flags": {
+    "take": true,
+    "cumulative": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "valuables",
+     "weight": 10,
+     "worth": 10000
+    }
+   }
+  },
+  {
+   "id": 2853,
+   "name": "bag",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "take": true,
+    "container": true,
+    "clothes": 3
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "containers",
+     "containersize": 8,
+     "weight": 800
+    }
+   }
+  },
+  {
+   "id": 2854,
+   "name": "backpack",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "take": true,
+    "container": true,
+    "clothes": 3
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "containers",
+     "containersize": 20,
+     "weight": 1800
+    }
+   }
+  },
+  {
+   "id": 3497,
+   "name": "locker",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "container": true,
+    "unmove": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "type": "depot",
+     "containersize": 30
+    }
+   }
+  },
+  {
+   "id": 3502,
+   "name": "depot chest",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "container": true,
+    "unmove": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "containersize": 30
+    }
+   }
+  },
+  {
+   "id": 12902,
+   "name": "your inbox",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "container": true,
+    "unmove": true
+   },
+   "server": {
+    "attrs": {
+     "containersize": 30
+    }
+   }
+  },
+  {
+   "id": 12903,
+   "name": "market",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "container": true,
+    "unmove": true
+   },
+   "server": {
+    "attrs": {
+     "type": "container"
+    }
+   }
+  },
+  {
+   "id": 23396,
+   "name": "your store inbox",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "container": true,
+    "unmove": true
+   },
+   "server": {
+    "attrs": {
+     "containersize": 30
+    }
+   }
+  },
+  {
+   "id": 28750,
+   "name": "supply stash",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "container": true,
+    "unmove": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "type": "container"
+    }
+   }
+  },
+  {
+   "id": 19202,
+   "name": "reward container",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "container": true,
+    "unmove": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "containersize": 30
+    }
+   }
+  },
+  {
+   "id": 3503,
+   "name": "parcel",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "take": true,
+    "container": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "type": "container",
+     "containersize": 10,
+     "weight": 1800
+    }
+   }
+  },
+  {
+   "id": 3504,
+   "name": "stamped parcel",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "take": true,
+    "container": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "type": "container",
+     "containersize": 10,
+     "weight": 1800
+    }
+   }
+  },
+  {
+   "id": 3505,
+   "name": "letter",
+   "frames": [
+    "art/item/scroll/i-blinking.png"
+   ],
+   "flags": {
+    "take": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "type": "mailbox",
+     "weight": 50
+    }
+   }
+  },
+  {
+   "id": 3506,
+   "name": "stamped letter",
+   "frames": [
+    "art/item/scroll/i-blinking.png"
+   ],
+   "flags": {
+    "take": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "weight": 50
+    }
+   }
+  },
+  {
+   "id": 2886,
+   "name": "blood",
+   "frames": [
+    "art/misc/blood/blood_red01.png"
+   ],
+   "flags": {
+    "liquidpool": true,
+    "unmove": true
+   },
+   "server": {
+    "attrs": {
+     "type": "splash",
+     "duration": 30,
+     "decayTo": 0
+    }
+   }
+  },
+  {
+   "id": 2889,
+   "name": "blood",
+   "frames": [
+    "art/misc/blood/blood_red02.png"
+   ],
+   "flags": {
+    "liquidpool": true,
+    "unmove": true
+   },
+   "server": {
+    "attrs": {
+     "type": "splash",
+     "duration": 30,
+     "decayTo": 0
+    }
+   }
+  },
+  {
+   "id": 4240,
+   "name": "dead human",
+   "frames": [
+    "art/misc/blood/blood_red00.png"
+   ],
+   "flags": {
+    "container": true,
+    "corpse": true,
+    "player_corpse": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "containersize": 10,
+     "duration": 300,
+     "decayTo": 0,
+     "corpseType": "blood"
+    }
+   }
+  },
+  {
+   "id": 4247,
+   "name": "dead human",
+   "frames": [
+    "art/misc/blood/blood_red03.png"
+   ],
+   "flags": {
+    "container": true,
+    "corpse": true,
+    "player_corpse": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "containersize": 10,
+     "duration": 300,
+     "decayTo": 0,
+     "corpseType": "blood"
+    }
+   }
+  },
+  {
+   "id": 61010,
    "name": "health potion",
    "frames": [
     "art/item/potion/ruby.png"
@@ -286,7 +611,7 @@
    }
   },
   {
-   "id": 1011,
+   "id": 61011,
    "name": "mana potion",
    "frames": [
     "art/item/potion/brilliant_blue.png"
@@ -306,7 +631,7 @@
    }
   },
   {
-   "id": 1020,
+   "id": 61020,
    "name": "club",
    "frames": [
     "art/item/weapon/club.png"
@@ -334,7 +659,7 @@
    }
   },
   {
-   "id": 1021,
+   "id": 61021,
    "name": "dagger",
    "frames": [
     "art/item/weapon/dagger.png"
@@ -362,7 +687,7 @@
    }
   },
   {
-   "id": 1030,
+   "id": 61030,
    "name": "leather armor",
    "frames": [
     "art/item/armour/leather_armour1.png"
@@ -387,7 +712,7 @@
    }
   },
   {
-   "id": 1031,
+   "id": 61031,
    "name": "leather boots",
    "frames": [
     "art/item/armour/boots1_brown.png"
@@ -412,27 +737,7 @@
    }
   },
   {
-   "id": 1040,
-   "name": "backpack",
-   "frames": [
-    "art/item/misc/misc_box.png"
-   ],
-   "flags": {
-    "take": true,
-    "container": true,
-    "clothes": 3
-   },
-   "server": {
-    "article": "a",
-    "attrs": {
-     "primarytype": "containers",
-     "containersize": 20,
-     "weight": 1800
-    }
-   }
-  },
-  {
-   "id": 1050,
+   "id": 61050,
    "name": "corpse",
    "frames": [
     "art/mon/undead/zombies/zombie_rat.png"
@@ -609,9 +914,3374 @@
    "flags": {}
   }
  ],
- "effects": [],
- "missiles": [],
+ "effects": [
+  {
+   "id": 1,
+   "frames": [
+    "art/effect/cloud_acid1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 2,
+   "frames": [
+    "art/effect/cloud_acid2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 3,
+   "frames": [
+    "art/effect/cloud_black_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 4,
+   "frames": [
+    "art/effect/cloud_blue_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 5,
+   "frames": [
+    "art/effect/cloud_calc_dust0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 6,
+   "frames": [
+    "art/effect/cloud_calc_dust1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 7,
+   "frames": [
+    "art/effect/cloud_calc_dust2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 8,
+   "frames": [
+    "art/effect/cloud_calc_dust3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 9,
+   "frames": [
+    "art/effect/cloud_chaos1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 10,
+   "frames": [
+    "art/effect/cloud_chaos2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 11,
+   "frames": [
+    "art/effect/cloud_chaos3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 12,
+   "frames": [
+    "art/effect/cloud_chaos4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 13,
+   "frames": [
+    "art/effect/cloud_chaos5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 14,
+   "frames": [
+    "art/effect/cloud_cold0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 15,
+   "frames": [
+    "art/effect/cloud_cold1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 16,
+   "frames": [
+    "art/effect/cloud_cold2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 17,
+   "frames": [
+    "art/effect/cloud_fire0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 18,
+   "frames": [
+    "art/effect/cloud_fire1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 19,
+   "frames": [
+    "art/effect/cloud_fire2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 20,
+   "frames": [
+    "art/effect/cloud_forest_fire.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 21,
+   "frames": [
+    "art/effect/cloud_gloom.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 22,
+   "frames": [
+    "art/effect/cloud_grey_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 23,
+   "frames": [
+    "art/effect/cloud_magic_trail0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 24,
+   "frames": [
+    "art/effect/cloud_magic_trail1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 25,
+   "frames": [
+    "art/effect/cloud_magic_trail2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 26,
+   "frames": [
+    "art/effect/cloud_magic_trail3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 27,
+   "frames": [
+    "art/effect/cloud_meph0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 28,
+   "frames": [
+    "art/effect/cloud_meph1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 29,
+   "frames": [
+    "art/effect/cloud_meph2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 30,
+   "frames": [
+    "art/effect/cloud_miasma.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 31,
+   "frames": [
+    "art/effect/cloud_mutagenic_large1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 32,
+   "frames": [
+    "art/effect/cloud_mutagenic_large2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 33,
+   "frames": [
+    "art/effect/cloud_mutagenic_large3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 34,
+   "frames": [
+    "art/effect/cloud_mutagenic_large4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 35,
+   "frames": [
+    "art/effect/cloud_mutagenic_medium1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 36,
+   "frames": [
+    "art/effect/cloud_mutagenic_medium2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 37,
+   "frames": [
+    "art/effect/cloud_mutagenic_small1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 38,
+   "frames": [
+    "art/effect/cloud_mutagenic_small2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 39,
+   "frames": [
+    "art/effect/cloud_neg0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 40,
+   "frames": [
+    "art/effect/cloud_neg1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 41,
+   "frames": [
+    "art/effect/cloud_neg2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 42,
+   "frames": [
+    "art/effect/cloud_poison0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 43,
+   "frames": [
+    "art/effect/cloud_poison1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 44,
+   "frames": [
+    "art/effect/cloud_poison2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 45,
+   "frames": [
+    "art/effect/cloud_rain1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 46,
+   "frames": [
+    "art/effect/cloud_rain2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 47,
+   "frames": [
+    "art/effect/cloud_spectral0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 48,
+   "frames": [
+    "art/effect/cloud_spectral1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 49,
+   "frames": [
+    "art/effect/cloud_spectral2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 50,
+   "frames": [
+    "art/effect/cloud_storm1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 51,
+   "frames": [
+    "art/effect/cloud_storm2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 52,
+   "frames": [
+    "art/effect/cloud_tloc_energy.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 53,
+   "frames": [
+    "art/effect/cloud_yellow_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 54,
+   "frames": [
+    "art/effect/cloud_acid0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 55,
+   "frames": [
+    "art/effect/cloud_acid1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 56,
+   "frames": [
+    "art/effect/cloud_acid2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 57,
+   "frames": [
+    "art/effect/cloud_black_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 58,
+   "frames": [
+    "art/effect/cloud_blue_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 59,
+   "frames": [
+    "art/effect/cloud_calc_dust0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 60,
+   "frames": [
+    "art/effect/cloud_calc_dust1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 61,
+   "frames": [
+    "art/effect/cloud_calc_dust2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 62,
+   "frames": [
+    "art/effect/cloud_calc_dust3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 63,
+   "frames": [
+    "art/effect/cloud_chaos1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 64,
+   "frames": [
+    "art/effect/cloud_chaos2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 65,
+   "frames": [
+    "art/effect/cloud_chaos3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 66,
+   "frames": [
+    "art/effect/cloud_chaos4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 67,
+   "frames": [
+    "art/effect/cloud_chaos5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 68,
+   "frames": [
+    "art/effect/cloud_cold0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 69,
+   "frames": [
+    "art/effect/cloud_cold1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 70,
+   "frames": [
+    "art/effect/cloud_cold2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 71,
+   "frames": [
+    "art/effect/cloud_fire0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 72,
+   "frames": [
+    "art/effect/cloud_fire1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 73,
+   "frames": [
+    "art/effect/cloud_fire2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 74,
+   "frames": [
+    "art/effect/cloud_forest_fire.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 75,
+   "frames": [
+    "art/effect/cloud_gloom.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 76,
+   "frames": [
+    "art/effect/cloud_grey_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 77,
+   "frames": [
+    "art/effect/cloud_magic_trail0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 78,
+   "frames": [
+    "art/effect/cloud_magic_trail1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 79,
+   "frames": [
+    "art/effect/cloud_magic_trail2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 80,
+   "frames": [
+    "art/effect/cloud_magic_trail3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 81,
+   "frames": [
+    "art/effect/cloud_meph0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 82,
+   "frames": [
+    "art/effect/cloud_meph1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 83,
+   "frames": [
+    "art/effect/cloud_meph2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 84,
+   "frames": [
+    "art/effect/cloud_miasma.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 85,
+   "frames": [
+    "art/effect/cloud_mutagenic_large1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 86,
+   "frames": [
+    "art/effect/cloud_mutagenic_large2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 87,
+   "frames": [
+    "art/effect/cloud_mutagenic_large3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 88,
+   "frames": [
+    "art/effect/cloud_mutagenic_large4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 89,
+   "frames": [
+    "art/effect/cloud_mutagenic_medium1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 90,
+   "frames": [
+    "art/effect/cloud_mutagenic_medium2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 91,
+   "frames": [
+    "art/effect/cloud_mutagenic_small1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 92,
+   "frames": [
+    "art/effect/cloud_mutagenic_small2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 93,
+   "frames": [
+    "art/effect/cloud_neg0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 94,
+   "frames": [
+    "art/effect/cloud_neg1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 95,
+   "frames": [
+    "art/effect/cloud_neg2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 96,
+   "frames": [
+    "art/effect/cloud_poison0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 97,
+   "frames": [
+    "art/effect/cloud_poison1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 98,
+   "frames": [
+    "art/effect/cloud_poison2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 99,
+   "frames": [
+    "art/effect/cloud_rain1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 100,
+   "frames": [
+    "art/effect/cloud_rain2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 101,
+   "frames": [
+    "art/effect/cloud_spectral0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 102,
+   "frames": [
+    "art/effect/cloud_spectral1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 103,
+   "frames": [
+    "art/effect/cloud_spectral2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 104,
+   "frames": [
+    "art/effect/cloud_storm1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 105,
+   "frames": [
+    "art/effect/cloud_storm2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 106,
+   "frames": [
+    "art/effect/cloud_tloc_energy.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 107,
+   "frames": [
+    "art/effect/cloud_yellow_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 108,
+   "frames": [
+    "art/effect/cloud_acid0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 109,
+   "frames": [
+    "art/effect/cloud_acid1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 110,
+   "frames": [
+    "art/effect/cloud_acid2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 111,
+   "frames": [
+    "art/effect/cloud_black_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 112,
+   "frames": [
+    "art/effect/cloud_blue_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 113,
+   "frames": [
+    "art/effect/cloud_calc_dust0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 114,
+   "frames": [
+    "art/effect/cloud_calc_dust1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 115,
+   "frames": [
+    "art/effect/cloud_calc_dust2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 116,
+   "frames": [
+    "art/effect/cloud_calc_dust3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 117,
+   "frames": [
+    "art/effect/cloud_chaos1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 118,
+   "frames": [
+    "art/effect/cloud_chaos2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 119,
+   "frames": [
+    "art/effect/cloud_chaos3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 120,
+   "frames": [
+    "art/effect/cloud_chaos4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 121,
+   "frames": [
+    "art/effect/cloud_chaos5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 122,
+   "frames": [
+    "art/effect/cloud_cold0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 123,
+   "frames": [
+    "art/effect/cloud_cold1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 124,
+   "frames": [
+    "art/effect/cloud_cold2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 125,
+   "frames": [
+    "art/effect/cloud_fire0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 126,
+   "frames": [
+    "art/effect/cloud_fire1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 127,
+   "frames": [
+    "art/effect/cloud_fire2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 128,
+   "frames": [
+    "art/effect/cloud_forest_fire.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 129,
+   "frames": [
+    "art/effect/cloud_gloom.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 130,
+   "frames": [
+    "art/effect/cloud_grey_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 131,
+   "frames": [
+    "art/effect/cloud_magic_trail0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 132,
+   "frames": [
+    "art/effect/cloud_magic_trail1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 133,
+   "frames": [
+    "art/effect/cloud_magic_trail2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 134,
+   "frames": [
+    "art/effect/cloud_magic_trail3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 135,
+   "frames": [
+    "art/effect/cloud_meph0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 136,
+   "frames": [
+    "art/effect/cloud_meph1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 137,
+   "frames": [
+    "art/effect/cloud_meph2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 138,
+   "frames": [
+    "art/effect/cloud_miasma.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 139,
+   "frames": [
+    "art/effect/cloud_mutagenic_large1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 140,
+   "frames": [
+    "art/effect/cloud_mutagenic_large2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 141,
+   "frames": [
+    "art/effect/cloud_mutagenic_large3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 142,
+   "frames": [
+    "art/effect/cloud_mutagenic_large4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 143,
+   "frames": [
+    "art/effect/cloud_mutagenic_medium1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 144,
+   "frames": [
+    "art/effect/cloud_mutagenic_medium2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 145,
+   "frames": [
+    "art/effect/cloud_mutagenic_small1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 146,
+   "frames": [
+    "art/effect/cloud_mutagenic_small2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 147,
+   "frames": [
+    "art/effect/cloud_neg0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 148,
+   "frames": [
+    "art/effect/cloud_neg1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 149,
+   "frames": [
+    "art/effect/cloud_neg2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 150,
+   "frames": [
+    "art/effect/cloud_poison0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 151,
+   "frames": [
+    "art/effect/cloud_poison1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 152,
+   "frames": [
+    "art/effect/cloud_poison2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 153,
+   "frames": [
+    "art/effect/cloud_rain1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 154,
+   "frames": [
+    "art/effect/cloud_rain2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 155,
+   "frames": [
+    "art/effect/cloud_spectral0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 156,
+   "frames": [
+    "art/effect/cloud_spectral1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 157,
+   "frames": [
+    "art/effect/cloud_spectral2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 158,
+   "frames": [
+    "art/effect/cloud_storm1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 159,
+   "frames": [
+    "art/effect/cloud_storm2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 160,
+   "frames": [
+    "art/effect/cloud_tloc_energy.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 161,
+   "frames": [
+    "art/effect/cloud_yellow_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 162,
+   "frames": [
+    "art/effect/cloud_acid0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 163,
+   "frames": [
+    "art/effect/cloud_acid1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 164,
+   "frames": [
+    "art/effect/cloud_acid2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 165,
+   "frames": [
+    "art/effect/cloud_black_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 166,
+   "frames": [
+    "art/effect/cloud_blue_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 167,
+   "frames": [
+    "art/effect/cloud_calc_dust0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 168,
+   "frames": [
+    "art/effect/cloud_calc_dust1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 169,
+   "frames": [
+    "art/effect/cloud_calc_dust2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 170,
+   "frames": [
+    "art/effect/cloud_calc_dust3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 171,
+   "frames": [
+    "art/effect/cloud_chaos1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 172,
+   "frames": [
+    "art/effect/cloud_chaos2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 173,
+   "frames": [
+    "art/effect/cloud_chaos3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 174,
+   "frames": [
+    "art/effect/cloud_chaos4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 175,
+   "frames": [
+    "art/effect/cloud_chaos5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 176,
+   "frames": [
+    "art/effect/cloud_cold0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 177,
+   "frames": [
+    "art/effect/cloud_cold1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 178,
+   "frames": [
+    "art/effect/cloud_cold2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 179,
+   "frames": [
+    "art/effect/cloud_fire0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 180,
+   "frames": [
+    "art/effect/cloud_fire1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 181,
+   "frames": [
+    "art/effect/cloud_fire2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 182,
+   "frames": [
+    "art/effect/cloud_forest_fire.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 183,
+   "frames": [
+    "art/effect/cloud_gloom.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 184,
+   "frames": [
+    "art/effect/cloud_grey_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 185,
+   "frames": [
+    "art/effect/cloud_magic_trail0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 186,
+   "frames": [
+    "art/effect/cloud_magic_trail1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 187,
+   "frames": [
+    "art/effect/cloud_magic_trail2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 188,
+   "frames": [
+    "art/effect/cloud_magic_trail3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 189,
+   "frames": [
+    "art/effect/cloud_meph0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 190,
+   "frames": [
+    "art/effect/cloud_meph1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 191,
+   "frames": [
+    "art/effect/cloud_meph2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 192,
+   "frames": [
+    "art/effect/cloud_miasma.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 193,
+   "frames": [
+    "art/effect/cloud_mutagenic_large1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 194,
+   "frames": [
+    "art/effect/cloud_mutagenic_large2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 195,
+   "frames": [
+    "art/effect/cloud_mutagenic_large3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 196,
+   "frames": [
+    "art/effect/cloud_mutagenic_large4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 197,
+   "frames": [
+    "art/effect/cloud_mutagenic_medium1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 198,
+   "frames": [
+    "art/effect/cloud_mutagenic_medium2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 199,
+   "frames": [
+    "art/effect/cloud_mutagenic_small1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 200,
+   "frames": [
+    "art/effect/cloud_mutagenic_small2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 201,
+   "frames": [
+    "art/effect/cloud_neg0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 202,
+   "frames": [
+    "art/effect/cloud_neg1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 203,
+   "frames": [
+    "art/effect/cloud_neg2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 204,
+   "frames": [
+    "art/effect/cloud_poison0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 205,
+   "frames": [
+    "art/effect/cloud_poison1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 206,
+   "frames": [
+    "art/effect/cloud_poison2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 207,
+   "frames": [
+    "art/effect/cloud_rain1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 208,
+   "frames": [
+    "art/effect/cloud_rain2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 209,
+   "frames": [
+    "art/effect/cloud_spectral0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 210,
+   "frames": [
+    "art/effect/cloud_spectral1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 211,
+   "frames": [
+    "art/effect/cloud_spectral2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 212,
+   "frames": [
+    "art/effect/cloud_storm1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 213,
+   "frames": [
+    "art/effect/cloud_storm2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 214,
+   "frames": [
+    "art/effect/cloud_tloc_energy.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 215,
+   "frames": [
+    "art/effect/cloud_yellow_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 216,
+   "frames": [
+    "art/effect/cloud_acid0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 217,
+   "frames": [
+    "art/effect/cloud_acid1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 218,
+   "frames": [
+    "art/effect/cloud_acid2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 219,
+   "frames": [
+    "art/effect/cloud_black_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 220,
+   "frames": [
+    "art/effect/cloud_blue_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 221,
+   "frames": [
+    "art/effect/cloud_calc_dust0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 222,
+   "frames": [
+    "art/effect/cloud_calc_dust1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 223,
+   "frames": [
+    "art/effect/cloud_calc_dust2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 224,
+   "frames": [
+    "art/effect/cloud_calc_dust3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 225,
+   "frames": [
+    "art/effect/cloud_chaos1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 226,
+   "frames": [
+    "art/effect/cloud_chaos2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 227,
+   "frames": [
+    "art/effect/cloud_chaos3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 228,
+   "frames": [
+    "art/effect/cloud_chaos4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 229,
+   "frames": [
+    "art/effect/cloud_chaos5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 230,
+   "frames": [
+    "art/effect/cloud_cold0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 231,
+   "frames": [
+    "art/effect/cloud_cold1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 232,
+   "frames": [
+    "art/effect/cloud_cold2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 233,
+   "frames": [
+    "art/effect/cloud_fire0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 234,
+   "frames": [
+    "art/effect/cloud_fire1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 235,
+   "frames": [
+    "art/effect/cloud_fire2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 236,
+   "frames": [
+    "art/effect/cloud_forest_fire.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 237,
+   "frames": [
+    "art/effect/cloud_gloom.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 238,
+   "frames": [
+    "art/effect/cloud_grey_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 239,
+   "frames": [
+    "art/effect/cloud_magic_trail0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 240,
+   "frames": [
+    "art/effect/cloud_magic_trail1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 241,
+   "frames": [
+    "art/effect/cloud_magic_trail2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 242,
+   "frames": [
+    "art/effect/cloud_magic_trail3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 243,
+   "frames": [
+    "art/effect/cloud_meph0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 244,
+   "frames": [
+    "art/effect/cloud_meph1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 245,
+   "frames": [
+    "art/effect/cloud_meph2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 246,
+   "frames": [
+    "art/effect/cloud_miasma.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 247,
+   "frames": [
+    "art/effect/cloud_mutagenic_large1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 248,
+   "frames": [
+    "art/effect/cloud_mutagenic_large2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 249,
+   "frames": [
+    "art/effect/cloud_mutagenic_large3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 250,
+   "frames": [
+    "art/effect/cloud_mutagenic_large4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 251,
+   "frames": [
+    "art/effect/cloud_mutagenic_medium1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 252,
+   "frames": [
+    "art/effect/cloud_mutagenic_medium2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 253,
+   "frames": [
+    "art/effect/cloud_mutagenic_small1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 254,
+   "frames": [
+    "art/effect/cloud_mutagenic_small2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 255,
+   "frames": [
+    "art/effect/cloud_neg0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 256,
+   "frames": [
+    "art/effect/cloud_neg1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 257,
+   "frames": [
+    "art/effect/cloud_neg2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 258,
+   "frames": [
+    "art/effect/cloud_poison0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 259,
+   "frames": [
+    "art/effect/cloud_poison1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 260,
+   "frames": [
+    "art/effect/cloud_poison2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 261,
+   "frames": [
+    "art/effect/cloud_rain1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 262,
+   "frames": [
+    "art/effect/cloud_rain2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 263,
+   "frames": [
+    "art/effect/cloud_spectral0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 264,
+   "frames": [
+    "art/effect/cloud_spectral1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 265,
+   "frames": [
+    "art/effect/cloud_spectral2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 266,
+   "frames": [
+    "art/effect/cloud_storm1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 267,
+   "frames": [
+    "art/effect/cloud_storm2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 268,
+   "frames": [
+    "art/effect/cloud_tloc_energy.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 269,
+   "frames": [
+    "art/effect/cloud_yellow_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 270,
+   "frames": [
+    "art/effect/cloud_acid0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 271,
+   "frames": [
+    "art/effect/cloud_acid1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 272,
+   "frames": [
+    "art/effect/cloud_acid2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 273,
+   "frames": [
+    "art/effect/cloud_black_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 274,
+   "frames": [
+    "art/effect/cloud_blue_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 275,
+   "frames": [
+    "art/effect/cloud_calc_dust0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 276,
+   "frames": [
+    "art/effect/cloud_calc_dust1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 277,
+   "frames": [
+    "art/effect/cloud_calc_dust2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 278,
+   "frames": [
+    "art/effect/cloud_calc_dust3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 279,
+   "frames": [
+    "art/effect/cloud_chaos1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 280,
+   "frames": [
+    "art/effect/cloud_chaos2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 281,
+   "frames": [
+    "art/effect/cloud_chaos3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 282,
+   "frames": [
+    "art/effect/cloud_chaos4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 283,
+   "frames": [
+    "art/effect/cloud_chaos5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 284,
+   "frames": [
+    "art/effect/cloud_cold0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 285,
+   "frames": [
+    "art/effect/cloud_cold1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 286,
+   "frames": [
+    "art/effect/cloud_cold2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 287,
+   "frames": [
+    "art/effect/cloud_fire0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 288,
+   "frames": [
+    "art/effect/cloud_fire1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 289,
+   "frames": [
+    "art/effect/cloud_fire2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 290,
+   "frames": [
+    "art/effect/cloud_forest_fire.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 291,
+   "frames": [
+    "art/effect/cloud_gloom.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 292,
+   "frames": [
+    "art/effect/cloud_grey_smoke.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 293,
+   "frames": [
+    "art/effect/cloud_magic_trail0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 294,
+   "frames": [
+    "art/effect/cloud_magic_trail1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 295,
+   "frames": [
+    "art/effect/cloud_magic_trail2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 296,
+   "frames": [
+    "art/effect/cloud_magic_trail3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 297,
+   "frames": [
+    "art/effect/cloud_meph0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 298,
+   "frames": [
+    "art/effect/cloud_meph1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 299,
+   "frames": [
+    "art/effect/cloud_meph2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 300,
+   "frames": [
+    "art/effect/cloud_miasma.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 301,
+   "frames": [
+    "art/effect/cloud_mutagenic_large1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 302,
+   "frames": [
+    "art/effect/cloud_mutagenic_large2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 303,
+   "frames": [
+    "art/effect/cloud_mutagenic_large3.png"
+   ],
+   "flags": {}
+  }
+ ],
+ "missiles": [
+  {
+   "id": 1,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 2,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 3,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 4,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 5,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 6,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 7,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 8,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 9,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 10,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 11,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 12,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 13,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 14,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 15,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 16,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 17,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 18,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 19,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 20,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 21,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 22,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 23,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 24,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 25,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 26,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 27,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 28,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 29,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 30,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 31,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 32,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 33,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 34,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 35,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 36,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 37,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 38,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 39,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 40,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 41,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png",
+    "art/effect/arrow5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 42,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png",
+    "art/effect/arrow6.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 43,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png",
+    "art/effect/arrow7.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 44,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png",
+    "art/effect/bolt0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 45,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png",
+    "art/effect/bolt01.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 46,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png",
+    "art/effect/bolt02.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 47,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png",
+    "art/effect/bolt03.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 48,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png",
+    "art/effect/bolt04.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 49,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png",
+    "art/effect/bolt05.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 50,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png",
+    "art/effect/bolt06.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 51,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png",
+    "art/effect/bolt07.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 52,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png",
+    "art/effect/bolt08.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 53,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png",
+    "art/effect/bolt1.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 54,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png",
+    "art/effect/bolt2.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 55,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png",
+    "art/effect/bolt3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 56,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png",
+    "art/effect/bolt4.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 57,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png",
+    "art/effect/bolt5.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 58,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png",
+    "art/effect/bolt6.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 59,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png",
+    "art/effect/bolt7.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 60,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png",
+    "art/effect/arrow0.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 61,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png",
+    "art/effect/arrow3.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 62,
+   "patterns": [
+    3,
+    3,
+    1
+   ],
+   "frames": [
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png",
+    "art/effect/arrow4.png"
+   ],
+   "flags": {}
+  }
+ ],
  "special": {
-  "gold_coin_id": 1000
+  "gold_coin_id": 3031,
+  "platinum_coin_id": 3035,
+  "crystal_coin_id": 3043
  }
 }

@@ -23,13 +23,13 @@ npcConfig.flags = { floorchange = false }
 
 -- ids are ours: see assets/manifest.json
 npcConfig.shop = {
-	{ itemName = "health potion", clientId = 1010, buy = 25, sell = 5 },
-	{ itemName = "mana potion", clientId = 1011, buy = 30, sell = 5 },
-	{ itemName = "club", clientId = 1020, buy = 40, sell = 8 },
-	{ itemName = "dagger", clientId = 1021, buy = 60, sell = 12 },
-	{ itemName = "leather armor", clientId = 1030, buy = 120, sell = 25 },
-	{ itemName = "leather boots", clientId = 1031, buy = 50, sell = 10 },
-	{ itemName = "backpack", clientId = 1040, buy = 20 },
+	{ itemName = "health potion", clientId = 61010, buy = 25, sell = 5 },
+	{ itemName = "mana potion", clientId = 61011, buy = 30, sell = 5 },
+	{ itemName = "club", clientId = 61020, buy = 40, sell = 8 },
+	{ itemName = "dagger", clientId = 61021, buy = 60, sell = 12 },
+	{ itemName = "leather armor", clientId = 61030, buy = 120, sell = 25 },
+	{ itemName = "leather boots", clientId = 61031, buy = 50, sell = 10 },
+	{ itemName = "backpack", clientId = 2854, buy = 20 },
 }
 
 local keywordHandler = KeywordHandler:new()

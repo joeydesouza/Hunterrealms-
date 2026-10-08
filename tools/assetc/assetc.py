@@ -187,7 +187,10 @@ def build(manifest_path: Path, out: Path):
     for old in out.glob("sprites-*.bmp.lzma"):
         old.unlink()
     (out / "appearances.dat").write_bytes(apps.SerializeToString())
-    catalog = [{"type": "appearances", "file": "appearances.dat"}]
+    # empty staticdata (bestiary/boss metadata) - the client requires the file to exist
+    (out / "staticdata.dat").write_bytes(b"")
+    catalog = [{"type": "appearances", "file": "appearances.dat"},
+               {"type": "staticdata", "file": "staticdata.dat"}]
     for sheet in packer.sheets:
         name = f"sprites-{sheet['first']}-{sheet['last']}.bmp.lzma"
         (out / name).write_bytes(compress_cip(sheet_to_bmp(sheet)))

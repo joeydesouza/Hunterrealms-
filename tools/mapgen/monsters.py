@@ -7,8 +7,8 @@ lookType = outfit id in assets/manifest.json; loot ids are ours.
 import sys
 from pathlib import Path
 
-GOLD, HP_POT, MP_POT, CLUB, DAGGER, LEATHER, BOOTS = 1000, 1010, 1011, 1020, 1021, 1030, 1031
-CORPSE = 1050
+GOLD, HP_POT, MP_POT, CLUB, DAGGER, LEATHER, BOOTS = 3031, 61010, 61011, 61020, 61021, 61030, 61031
+CORPSE = 61050
 
 # name, lookType, hp, exp, speed, maxHit, armor, loot[(id, chance/100000, maxCount)], voices
 MONSTERS = [
