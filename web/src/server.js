@@ -3,6 +3,7 @@
 //   POST /api/register  - create an account + first character (used by the app)
 //   GET  /health        - liveness check
 import express from "express";
+import { fileURLToPath } from "node:url";
 import mysql from "mysql2/promise";
 import { hashPassword, verifyPassword } from "./password.js";
 
@@ -29,6 +30,7 @@ export function createApp(pool) {
   const app = express();
   app.use(express.json({ limit: "16kb" }));
 
+  app.use(express.static(fileURLToPath(new URL("../public", import.meta.url))));
   app.get("/health", (_req, res) => res.json({ ok: true }));
 
   app.post(["/login", "/login.php"], async (req, res) => {
