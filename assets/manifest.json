@@ -1,0 +1,617 @@
+{
+ "objects": [
+  {
+   "id": 100,
+   "name": "grass",
+   "frames": [
+    "art/dngn/floor/grass/grass0.png"
+   ],
+   "flags": {
+    "bank": 150,
+    "automap": 24
+   }
+  },
+  {
+   "id": 101,
+   "name": "grass",
+   "frames": [
+    "art/dngn/floor/grass/grass1.png"
+   ],
+   "flags": {
+    "bank": 150,
+    "automap": 24
+   }
+  },
+  {
+   "id": 102,
+   "name": "dirt",
+   "frames": [
+    "art/dngn/floor/dirt0.png"
+   ],
+   "flags": {
+    "bank": 160,
+    "automap": 121
+   }
+  },
+  {
+   "id": 103,
+   "name": "cobblestone",
+   "frames": [
+    "art/dngn/floor/pebble_brown0.png"
+   ],
+   "flags": {
+    "bank": 120,
+    "automap": 86
+   }
+  },
+  {
+   "id": 104,
+   "name": "sand",
+   "frames": [
+    "art/dngn/floor/sand1.png"
+   ],
+   "flags": {
+    "bank": 170,
+    "automap": 207
+   }
+  },
+  {
+   "id": 105,
+   "name": "wooden floor",
+   "frames": [
+    "art/dngn/floor/limestone0.png"
+   ],
+   "flags": {
+    "bank": 120,
+    "automap": 121
+   }
+  },
+  {
+   "id": 110,
+   "name": "shallow water",
+   "frames": [
+    "art/dngn/water/shallow_water.png",
+    "art/dngn/water/shallow_water2.png"
+   ],
+   "phases": 2,
+   "phase_ms": 700,
+   "flags": {
+    "bank": 300,
+    "automap": 40
+   }
+  },
+  {
+   "id": 111,
+   "name": "deep water",
+   "frames": [
+    "art/dngn/water/deep_water.png",
+    "art/dngn/water/deep_water2.png"
+   ],
+   "phases": 2,
+   "phase_ms": 700,
+   "flags": {
+    "bank": 0,
+    "unpass": true,
+    "unmove": true,
+    "automap": 40
+   }
+  },
+  {
+   "id": 200,
+   "name": "stone wall",
+   "frames": [
+    "art/dngn/wall/stone2_gray0.png"
+   ],
+   "flags": {
+    "unpass": true,
+    "unmove": true,
+    "unsight": true,
+    "bottom": true,
+    "automap": 86
+   }
+  },
+  {
+   "id": 201,
+   "name": "stone wall",
+   "frames": [
+    "art/dngn/wall/stone2_gray1.png"
+   ],
+   "flags": {
+    "unpass": true,
+    "unmove": true,
+    "unsight": true,
+    "bottom": true,
+    "automap": 86
+   }
+  },
+  {
+   "id": 202,
+   "name": "stone wall",
+   "frames": [
+    "art/dngn/wall/stone2_gray2.png"
+   ],
+   "flags": {
+    "unpass": true,
+    "unmove": true,
+    "unsight": true,
+    "bottom": true,
+    "automap": 86
+   }
+  },
+  {
+   "id": 203,
+   "name": "stone wall",
+   "frames": [
+    "art/dngn/wall/stone2_gray3.png"
+   ],
+   "flags": {
+    "unpass": true,
+    "unmove": true,
+    "unsight": true,
+    "bottom": true,
+    "automap": 86
+   }
+  },
+  {
+   "id": 210,
+   "name": "brick wall",
+   "frames": [
+    "art/dngn/wall/brick_brown0.png"
+   ],
+   "flags": {
+    "unpass": true,
+    "unmove": true,
+    "unsight": true,
+    "bottom": true,
+    "automap": 121
+   }
+  },
+  {
+   "id": 300,
+   "name": "tree",
+   "frames": [
+    "art/dngn/trees/tree1_yellow.png"
+   ],
+   "flags": {
+    "unpass": true,
+    "unmove": true,
+    "unsight": false,
+    "automap": 12
+   }
+  },
+  {
+   "id": 301,
+   "name": "tree",
+   "frames": [
+    "art/dngn/trees/tree2_red.png"
+   ],
+   "flags": {
+    "unpass": true,
+    "unmove": true,
+    "automap": 12
+   }
+  },
+  {
+   "id": 400,
+   "name": "closed door",
+   "frames": [
+    "art/dngn/doors/closed_door.png"
+   ],
+   "flags": {
+    "unpass": true,
+    "unmove": true,
+    "unsight": true,
+    "usable": true,
+    "bottom": true
+   }
+  },
+  {
+   "id": 401,
+   "name": "open door",
+   "frames": [
+    "art/dngn/doors/open_door.png"
+   ],
+   "flags": {
+    "unmove": true,
+    "usable": true,
+    "bottom": true
+   }
+  },
+  {
+   "id": 410,
+   "name": "teleporter",
+   "frames": [
+    "art/dngn/teleporter.png"
+   ],
+   "flags": {
+    "unmove": true
+   }
+  },
+  {
+   "id": 1000,
+   "name": "gold coin",
+   "frames": [
+    "art/item/gold/01.png"
+   ],
+   "flags": {
+    "take": true,
+    "cumulative": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "valuables",
+     "weight": 10,
+     "worth": 1
+    }
+   }
+  },
+  {
+   "id": 1001,
+   "name": "silver coin",
+   "frames": [
+    "art/item/gold/03.png"
+   ],
+   "flags": {
+    "take": true,
+    "cumulative": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "valuables",
+     "weight": 10,
+     "worth": 100
+    }
+   }
+  },
+  {
+   "id": 1010,
+   "name": "health potion",
+   "frames": [
+    "art/item/potion/ruby.png"
+   ],
+   "flags": {
+    "take": true,
+    "cumulative": true,
+    "usable": true,
+    "multiuse": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "potions",
+     "weight": 180
+    }
+   }
+  },
+  {
+   "id": 1011,
+   "name": "mana potion",
+   "frames": [
+    "art/item/potion/brilliant_blue.png"
+   ],
+   "flags": {
+    "take": true,
+    "cumulative": true,
+    "usable": true,
+    "multiuse": true
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "potions",
+     "weight": 180
+    }
+   }
+  },
+  {
+   "id": 1020,
+   "name": "club",
+   "frames": [
+    "art/item/weapon/club.png"
+   ],
+   "flags": {
+    "take": true,
+    "clothes": 6
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "club weapons",
+     "weaponType": "club",
+     "attack": 7,
+     "defense": 7,
+     "weight": 2500
+    },
+    "script": [
+     "moveevent;weapon",
+     {
+      "weaponType": "club",
+      "slot": "hand"
+     }
+    ]
+   }
+  },
+  {
+   "id": 1021,
+   "name": "dagger",
+   "frames": [
+    "art/item/weapon/dagger.png"
+   ],
+   "flags": {
+    "take": true,
+    "clothes": 6
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "sword weapons",
+     "weaponType": "sword",
+     "attack": 8,
+     "defense": 6,
+     "weight": 950
+    },
+    "script": [
+     "moveevent;weapon",
+     {
+      "weaponType": "sword",
+      "slot": "hand"
+     }
+    ]
+   }
+  },
+  {
+   "id": 1030,
+   "name": "leather armor",
+   "frames": [
+    "art/item/armour/leather_armour1.png"
+   ],
+   "flags": {
+    "take": true,
+    "clothes": 4
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "armors",
+     "armor": 4,
+     "weight": 6000
+    },
+    "script": [
+     "moveevent",
+     {
+      "slot": "armor"
+     }
+    ]
+   }
+  },
+  {
+   "id": 1031,
+   "name": "leather boots",
+   "frames": [
+    "art/item/armour/boots1_brown.png"
+   ],
+   "flags": {
+    "take": true,
+    "clothes": 8
+   },
+   "server": {
+    "article": "a pair of",
+    "attrs": {
+     "primarytype": "boots",
+     "armor": 1,
+     "weight": 900
+    },
+    "script": [
+     "moveevent",
+     {
+      "slot": "feet"
+     }
+    ]
+   }
+  },
+  {
+   "id": 1040,
+   "name": "backpack",
+   "frames": [
+    "art/item/misc/misc_box.png"
+   ],
+   "flags": {
+    "take": true,
+    "container": true,
+    "clothes": 3
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "primarytype": "containers",
+     "containersize": 20,
+     "weight": 1800
+    }
+   }
+  },
+  {
+   "id": 1050,
+   "name": "corpse",
+   "frames": [
+    "art/mon/undead/zombies/zombie_rat.png"
+   ],
+   "flags": {
+    "corpse": true,
+    "container": true,
+    "unmove": false
+   },
+   "server": {
+    "article": "a",
+    "attrs": {
+     "containersize": 6,
+     "decayTo": 0,
+     "duration": 120,
+     "corpseType": "blood"
+    }
+   }
+  }
+ ],
+ "outfits": [
+  {
+   "id": 1,
+   "name": "human male",
+   "patterns": [
+    4,
+    1,
+    1
+   ],
+   "idle": [
+    "art/player/base/human_m.png",
+    "art/player/base/human_m.png",
+    "art/player/base/human_m.png",
+    "art/player/base/human_m.png"
+   ],
+   "moving": [
+    "art/player/base/human_m.png",
+    "art/player/base/human_m.png",
+    "art/player/base/human_m.png",
+    "art/player/base/human_m.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 2,
+   "name": "human female",
+   "patterns": [
+    4,
+    1,
+    1
+   ],
+   "idle": [
+    "art/player/base/human_f.png",
+    "art/player/base/human_f.png",
+    "art/player/base/human_f.png",
+    "art/player/base/human_f.png"
+   ],
+   "moving": [
+    "art/player/base/human_f.png",
+    "art/player/base/human_f.png",
+    "art/player/base/human_f.png",
+    "art/player/base/human_f.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 100,
+   "name": "rat",
+   "patterns": [
+    4,
+    1,
+    1
+   ],
+   "idle": [
+    "art/mon/undead/zombies/zombie_rat.png",
+    "art/mon/undead/zombies/zombie_rat.png",
+    "art/mon/undead/zombies/zombie_rat.png",
+    "art/mon/undead/zombies/zombie_rat.png"
+   ],
+   "moving": [
+    "art/mon/undead/zombies/zombie_rat.png",
+    "art/mon/undead/zombies/zombie_rat.png",
+    "art/mon/undead/zombies/zombie_rat.png",
+    "art/mon/undead/zombies/zombie_rat.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 101,
+   "name": "goblin",
+   "patterns": [
+    4,
+    1,
+    1
+   ],
+   "idle": [
+    "art/mon/goblin.png",
+    "art/mon/goblin.png",
+    "art/mon/goblin.png",
+    "art/mon/goblin.png"
+   ],
+   "moving": [
+    "art/mon/goblin.png",
+    "art/mon/goblin.png",
+    "art/mon/goblin.png",
+    "art/mon/goblin.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 102,
+   "name": "orc",
+   "patterns": [
+    4,
+    1,
+    1
+   ],
+   "idle": [
+    "art/mon/orc.png",
+    "art/mon/orc.png",
+    "art/mon/orc.png",
+    "art/mon/orc.png"
+   ],
+   "moving": [
+    "art/mon/orc.png",
+    "art/mon/orc.png",
+    "art/mon/orc.png",
+    "art/mon/orc.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 103,
+   "name": "jackal",
+   "patterns": [
+    4,
+    1,
+    1
+   ],
+   "idle": [
+    "art/mon/animals/jackal.png",
+    "art/mon/animals/jackal.png",
+    "art/mon/animals/jackal.png",
+    "art/mon/animals/jackal.png"
+   ],
+   "moving": [
+    "art/mon/animals/jackal.png",
+    "art/mon/animals/jackal.png",
+    "art/mon/animals/jackal.png",
+    "art/mon/animals/jackal.png"
+   ],
+   "flags": {}
+  },
+  {
+   "id": 104,
+   "name": "bat",
+   "patterns": [
+    4,
+    1,
+    1
+   ],
+   "idle": [
+    "art/mon/animals/bat.png",
+    "art/mon/animals/bat.png",
+    "art/mon/animals/bat.png",
+    "art/mon/animals/bat.png"
+   ],
+   "moving": [
+    "art/mon/animals/bat.png",
+    "art/mon/animals/bat.png",
+    "art/mon/animals/bat.png",
+    "art/mon/animals/bat.png"
+   ],
+   "flags": {}
+  }
+ ],
+ "effects": [],
+ "missiles": [],
+ "special": {
+  "gold_coin_id": 1000
+ }
+}

@@ -1,0 +1,1 @@
+-- disabled: Tibia-specific loot table

@@ -1,0 +1,4 @@
+build/
+__pycache__/
+*.pyc
+tools/assetc/appearances_pb2.py
