@@ -1,0 +1,52 @@
+# Hunter Realms: database + game server + login service.
+#   cp .env.example .env   (set GAME_HOST to this machine's LAN IP or public IP)
+#   docker compose up -d --build
+name: hunterrealms
+services:
+  db:
+    image: mariadb:11.4
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: hunterrealms
+      MARIADB_USER: hunter
+      MARIADB_PASSWORD: ${DB_PASSWORD:-hunter}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:-change-me}
+    volumes:
+      - db-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  server:
+    build:
+      context: .
+      dockerfile: server/Dockerfile
+    restart: unless-stopped
+    depends_on:
+      db: { condition: service_healthy }
+    environment:
+      DB_HOST: db
+      DB_PASSWORD: ${DB_PASSWORD:-hunter}
+      GAME_HOST: ${GAME_HOST:?set GAME_HOST in .env}
+      SEED_DEV_ACCOUNT: ${SEED_DEV_ACCOUNT:-false}
+    ports:
+      - "7171:7171"
+      - "7172:7172"
+
+  web:
+    build: ./web
+    restart: unless-stopped
+    depends_on:
+      db: { condition: service_healthy }
+    environment:
+      DB_HOST: db
+      DB_PASSWORD: ${DB_PASSWORD:-hunter}
+      GAME_HOST: ${GAME_HOST:?set GAME_HOST in .env}
+      GAME_PORT: 7172
+    ports:
+      - "${WEB_PORT:-8080}:8080"
+
+volumes:
+  db-data:

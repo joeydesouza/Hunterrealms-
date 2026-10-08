@@ -3,3 +3,4 @@ __pycache__/
 *.pyc
 tools/assetc/appearances_pb2.py
 web/node_modules/
+.env

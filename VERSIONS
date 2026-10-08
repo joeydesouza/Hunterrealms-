@@ -1,0 +1,5 @@
+# Pinned upstream engines (tested together end-to-end)
+CANARY_REPO=https://github.com/opentibiabr/canary.git
+CANARY_COMMIT=09fde48ffa9afaf5c424bde460ec0c4c7c734e51
+OTCLIENT_REPO=https://github.com/mehah/otclient.git
+OTCLIENT_COMMIT=396f0b396741bdd4469f27cf9376103930712cff
