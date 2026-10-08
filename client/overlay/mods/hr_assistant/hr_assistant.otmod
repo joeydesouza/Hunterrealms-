@@ -1,0 +1,9 @@
+Module
+  name: hr_assistant
+  description: Hunter Realms hunt assistant - auto heal, mana, attack and spells (touch friendly)
+  author: Hunter Realms
+  sandboxed: true
+  scripts: [ hr_assistant ]
+  dependencies: [ game_interface ]
+  @onLoad: init()
+  @onUnload: terminate()

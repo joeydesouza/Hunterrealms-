@@ -1,0 +1,65 @@
+HRBar < UIWidget
+  size: 64 290
+  phantom: false
+  focusable: false
+  layout:
+    type: verticalBox
+    spacing: 6
+
+HRToggle < Button
+  size: 64 50
+  font: verdana-11px-rounded
+  text-wrap: true
+
+HRSettings < MainWindow
+  id: hrAssistantSettings
+  !text: tr('Hunt Assistant')
+  size: 360 330
+  @onEscape: modules.hr_assistant.hideSettings()
+
+  Label
+    id: healLabel
+    !text: tr('Use health potion below HP %')
+    anchors.top: parent.top
+    anchors.left: parent.left
+  TextEdit
+    id: healAt
+    anchors.top: healLabel.bottom
+    anchors.left: parent.left
+    width: 80
+    margin-top: 4
+
+  Label
+    id: manaLabel
+    !text: tr('Use mana potion below MP %')
+    anchors.top: healAt.bottom
+    anchors.left: parent.left
+    margin-top: 10
+  TextEdit
+    id: manaAt
+    anchors.top: manaLabel.bottom
+    anchors.left: parent.left
+    width: 80
+    margin-top: 4
+
+  Label
+    id: spellsLabel
+    !text: tr('Attack spells (one per line: words, min mana, seconds)')
+    anchors.top: manaAt.bottom
+    anchors.left: parent.left
+    margin-top: 10
+  MultilineTextEdit
+    id: spells
+    anchors.top: spellsLabel.bottom
+    anchors.left: parent.left
+    anchors.right: parent.right
+    height: 110
+    margin-top: 4
+
+  Button
+    id: save
+    !text: tr('Save')
+    width: 90
+    anchors.bottom: parent.bottom
+    anchors.right: parent.right
+    @onClick: modules.hr_assistant.saveSettings()
